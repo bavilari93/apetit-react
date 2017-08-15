@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+/*navigation Bar */
+.nav{
+position: fixed;
+margin-top: 180px;
+}
+
+/*profile */
+
+.profile{
+  width: 40vw;
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-top:20px;
+  position: absolute;
+
+}
+
+/*all restaurants search */
+.search-button{
+margin-top: 20px;
+margin-left:-100px;
+ -webkit-appearance: none;
+}
+
+div.ui.card.search-info{
+  margin-top: 30px;
+  margin-left: 200px;
+  height: 400px;
+  position: relative;
+  display: inline-block;
+
+}
+
+div.content-result.content{
+  margin-left:30px;
+}
+
+
+img{
+  box-shadow: 0px 4px 4px  rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/*most voted */
+.most-voted{
+  margin-top: 250px;
+  position: absolute;
+}
+
+/*form */
+
+form {
+  margin-top: 30px;
+  color: white;
+}
+
+.signup{
+left: 50%;
+top:130%;
+
+}
+.login{
+  right: 50%;
+  top:130%;
+}
+
+
+
+/*inputs range*/
+input[type=range] {
+  margin-left: 40px;
+    -webkit-appearance: none;
+    background-color: #C5E3E8;
+    width: 150px;
+    height:10px;  
+    outline-width: 0; 
+    margin-top: 25px;
+}
+input[type="range"]::-webkit-slider-thumb {
+     -webkit-appearance: none;
+    background-color: #565264;
+    opacity: 0.5;
+    width: 10px;
+    height: 26px;
+}
+
+/*auth forms*/
+
+h1{
+  font-weight: 300;
+  font-size: 2em;
+  margin: 10px 0;
+}
+
